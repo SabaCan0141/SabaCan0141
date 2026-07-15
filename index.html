@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taniguchi Ryoga — Portfolio</title>
+<meta name="description" content="谷口 遼河 (鯖缶 / SabaCan0141) のポートフォリオ。Web・機械学習・ハードウェアの制作記録。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Sans+JP:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="site" data-theme="dark" id="top">
+
+  <header class="site-header">
+    <a href="#top" class="brand mono"><span class="avatar avatar--xs" title="avatar placeholder" aria-hidden="true"></span><span class="brand-sub">鯖缶 / SabaCan0141</span></a>
+    <nav class="nav">
+      <a href="#about" class="nav-link mono">About</a>
+      <a href="#skills" class="nav-link mono">Skills</a>
+      <a href="#works" class="nav-link mono">Works</a>
+      <button type="button" class="theme-toggle mono" id="theme-toggle" aria-label="テーマ切替">
+        <span class="theme-dot"></span><span id="theme-label">DARK</span>
+      </button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <canvas class="hero-canvas" id="life"></canvas>
+    <div class="hero-center">
+      <div class="hero-panel">
+        <p class="hero-eyebrow mono">PORTFOLIO</p>
+        <h1 class="hero-title">Taniguchi Ryoga</h1>
+        <p class="hero-name mono">谷口 遼河 / 鯖缶・SabaCan0141</p>
+        <p class="hero-lead">アイデアを、触れて動くかたちへ。<br>Web、機械学習、ハードウェアまで、<br>境界を決めずにつくっています。</p>
+      </div>
+    </div>
+    <button type="button" class="hero-pause mono" id="pause-btn">
+      <span class="pause-icon" id="pause-glyph" aria-hidden="true"><svg viewBox="0 0 12 14" width="11" height="12"><rect x="1" y="1" width="3.5" height="12" fill="currentColor"/><rect x="7.5" y="1" width="3.5" height="12" fill="currentColor"/></svg></span> <span id="pause-label">一時停止</span>
+    </button>
+    <div class="hero-caption mono">B3/S23 · <span class="accent">クリック / ドラッグで描画</span></div>
+    <a href="#about" class="hero-scroll mono">SCROLL ↓</a>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section-inner section-grid">
+      <div class="section-head reveal">
+        <div class="section-num mono">01</div>
+        <h2 class="section-title">About</h2>
+      </div>
+      <div class="about-body reveal">
+        <div class="about-name-block">
+          <span class="avatar avatar--lg" title="avatar placeholder" aria-hidden="true"></span>
+          <div>
+            <div class="about-name">Taniguchi Ryoga</div>
+            <div class="about-name-sub mono">谷口 遼河 / 鯖缶・SabaCan0141</div>
+          </div>
+        </div>
+        <p class="about-lead">Webアプリケーション、機械学習ライブラリ、Obsidianプラグイン、そしてハードウェア作品まで、領域をまたいでものづくりをしています。関心の中心にあるのは、技術を「触れて動かせる体験」に変えること。データの可視化や、AIとデバイスを組み合わせた表現を得意とし、個人開発でもチーム開発でも、アイデアを素早くプロトタイプへ落とし込みます。</p>
+        <div class="timeline">
+          <div class="timeline-row">
+            <span class="timeline-year mono">2025</span>
+            <div class="timeline-main">
+              <div class="timeline-head"><span class="timeline-title">Code for Osaka賞 受賞</span><span class="badge mono">AWARD</span></div>
+              <p class="timeline-desc">テックシーカーハッカソン2025 —「The Ghost in the Camera」</p>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <span class="timeline-year mono">2025.10</span>
+            <div class="timeline-main">
+              <div class="timeline-title">大阪・関西万博 出展</div>
+              <p class="timeline-desc">チーム「びわこBC」として「The Ghost in the Camera」を展示（10.5）</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="section-inner section-grid">
+      <div class="section-head reveal">
+        <div class="section-num mono">02</div>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-body reveal">
+        <div class="skill-group">
+          <div class="skill-cat mono">LANGUAGES</div>
+          <div class="skill-tags">
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" loading="lazy">Python</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" loading="lazy">TypeScript</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" loading="lazy">JavaScript</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="" loading="lazy">C</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="" loading="lazy">C++</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="" loading="lazy">C#</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="" loading="lazy">HTML</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" loading="lazy">CSS</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="" loading="lazy">SQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-cat mono">FRAMEWORKS</div>
+          <div class="skill-tags">
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="" loading="lazy">PyTorch</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="" loading="lazy">NumPy</span>
+            <span class="chip"><img class="chip-icon chip-icon--invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="" loading="lazy">pandas</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="" loading="lazy">OpenCV</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="" loading="lazy">FastAPI</span>
+            <span class="chip"><img class="chip-icon chip-icon--invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="" loading="lazy">Flask</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="" loading="lazy">Node.js</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-cat mono">HARDWARE</div>
+          <div class="skill-tags">
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" alt="" loading="lazy">Arduino</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-cat mono">TOOLS</div>
+          <div class="skill-tags">
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="" loading="lazy">Git</span>
+            <span class="chip"><img class="chip-icon chip-icon--invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="" loading="lazy">GitHub</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" alt="" loading="lazy">GitHub Actions</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="" loading="lazy">Docker</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="" loading="lazy">Linux</span>
+            <span class="chip"><img class="chip-icon chip-icon--invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" alt="" loading="lazy">LaTeX</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" alt="" loading="lazy">Blender</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" alt="" loading="lazy">Photoshop</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" alt="" loading="lazy">Illustrator</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" alt="" loading="lazy">After Effects</span>
+            <span class="chip"><img class="chip-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg" alt="" loading="lazy">Premiere Pro</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="works">
+    <div class="section-inner">
+      <div class="works-head reveal">
+        <div class="section-num mono">03</div>
+        <h2 class="section-title">Works</h2>
+        <span class="works-count mono">— 4 projects</span>
+      </div>
+      <div class="works-grid">
+
+        <article class="work-card reveal">
+          <div class="work-thumb work-thumb--img">
+            <img src="assets/img/wf.png" alt="Word-Float のスクリーンショット" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3 class="work-title">Word-Float</h3>
+            <p class="work-desc">最新ニュースの単語頻度を物理エンジンで漂わせて可視化するWebアプリ。クリックで関連記事へ。</p>
+            <div class="tag-row">
+              <span class="tag mono">Python</span><span class="tag mono">FastAPI</span><span class="tag mono">SudachiPy</span><span class="tag mono">Matter.js</span>
+            </div>
+            <div class="work-links">
+              <a href="https://word-float.onrender.com/" target="_blank" rel="noopener" class="link link--primary mono">サイトを見る ↗</a>
+              <a href="https://github.com/SabaCan0141/Word-Float" target="_blank" rel="noopener" class="link mono">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb work-thumb--img">
+            <img src="https://opengraph.githubassets.com/1/SabaCan0141/obsidian-gemini-file-generator" alt="obsidian-gemini-file-generator リポジトリのプレビュー" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3 class="work-title">Obsidian Gemini File Generator</h3>
+            <p class="work-desc">PDF・画像・テキストをGeminiに渡し、要約や翻訳をMarkdownノートとして自動生成するObsidianプラグイン。</p>
+            <div class="tag-row">
+              <span class="tag mono">TypeScript</span><span class="tag mono">Gemini API</span><span class="tag mono">esbuild</span>
+            </div>
+            <div class="work-links">
+              <a href="https://github.com/SabaCan0141/obsidian-gemini-file-generator" target="_blank" rel="noopener" class="link link--primary mono">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb work-thumb--img">
+            <img src="https://opengraph.githubassets.com/1/SabaCan0141/PokemonDataset" alt="PokemonDataset リポジトリのプレビュー" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3 class="work-title">PokemonDataset</h3>
+            <p class="work-desc">PokeAPIの画像・タイプ・種族値を、数行で <code class="mono">DataLoader</code> に渡せるPyTorch Datasetとして提供するライブラリ。</p>
+            <div class="tag-row">
+              <span class="tag mono">Python</span><span class="tag mono">PyTorch</span><span class="tag mono">pandas</span>
+            </div>
+            <div class="work-links">
+              <a href="https://github.com/SabaCan0141/PokemonDataset" target="_blank" rel="noopener" class="link link--primary mono">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb work-thumb--img">
+            <img src="assets/img/gic.png" alt="The Ghost in the Camera の実機写真" loading="lazy">
+          </div>
+          <div class="work-body">
+            <h3 class="work-title">The Ghost in the Camera</h3>
+            <p class="work-desc">撮ると霊（LLM）が被写体の未来を占い、タロット風の結果をその場で印刷する「幽霊憑きカメラ」。Code for Osaka賞。</p>
+            <div class="tag-row">
+              <span class="tag mono">SPRESENSE</span><span class="tag mono">Arduino/C++</span><span class="tag mono">LTE-M</span><span class="tag mono">Gemini API</span>
+            </div>
+            <div class="work-links">
+              <a href="https://protopedia.net/prototype/7102" target="_blank" rel="noopener" class="link link--primary mono">ProtoPedia ↗</a>
+              <a href="https://github.com/Ume-Chika/ghost_camera" target="_blank" rel="noopener" class="link mono">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-name-block">
+          <span class="avatar avatar--md" title="avatar placeholder" aria-hidden="true"></span>
+          <div>
+            <div class="footer-name">Taniguchi Ryoga</div>
+            <div class="footer-name-sub mono">谷口 遼河 / 鯖缶・SabaCan0141</div>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-label mono">LINKS</div>
+          <a href="https://github.com/SabaCan0141" target="_blank" rel="noopener" class="footer-link mono">GitHub / @SabaCan0141 ↗</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="copyright mono">© 2026 Taniguchi Ryoga</div>
+        <div class="credit mono">背景演出: <a href="https://ja.wikipedia.org/wiki/ライフゲーム" target="_blank" rel="noopener">ライフゲーム ↗</a></div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="assets/lifegame.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>

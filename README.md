@@ -1,39 +1,30 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4,12,30&height=150&section=header&animation=twinkling" />
-</div>
+# Taniguchi Ryoga (SabaCan0141)
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=1800&color=00FFD1&center=true&vCenter=true&width=700&lines=Hello%2C+I'm+SabaCan.;Researcher+in+AI+and+Biology.;Exploring+Biologically+Plausible+Learning.;Python+is+my+native+language.;Science+should+be+elegant." alt="Typing SVG" />
-</div>
+Researcher and maker, based in Japan.
 
+Interested in the intersection of **neuroscience**, **information theory**, and **machine learning**, with a focus on **biologically plausible learning**. Alongside research, I build web applications, ML libraries, and hardware.
 
-## 🌟 **About Me**
+Portfolio: [sabacan0141.github.io](https://sabacan0141.github.io/)
 
-<div align="center">
+## Works
 
-<table>
-<tr>
-<td width="200" align="center">
-<img src="https://skillicons.dev/icons?i=python" width="100" height="100" alt="Python" />
-<br><strong>Python</strong>
-</td>
-<td width="400" align="left">
+| Project | Description | Built with |
+|---|---|---|
+| [Word-Float](https://github.com/SabaCan0141/Word-Float) ([demo](https://word-float.onrender.com/)) | News word frequencies visualized on a physics engine | FastAPI · SudachiPy · Matter.js |
+| [The Ghost in the Camera](https://protopedia.net/prototype/7102) | A "haunted" camera that photographs a subject and prints an LLM-generated fortune. Code for Osaka Award; exhibited at Expo 2025 Osaka | SPRESENSE · LTE-M · Gemini API |
+| [PokemonDataset](https://github.com/SabaCan0141/PokemonDataset) | PokeAPI data as a ready-to-use PyTorch `Dataset` | PyTorch · pandas |
+| [obsidian-gemini-file-generator](https://github.com/SabaCan0141/obsidian-gemini-file-generator) | Obsidian plugin that generates notes from files via Gemini | TypeScript · Gemini API |
 
-### 👋 **Hi, I'm SabaCan!**
-- 🇯🇵 Based in Japan  
-- 🧠 Interested in the intersection of **neuroscience**, **information theory**, and **machine learning**  
-- 🔍 Exploring **biologically plausible AI models**  
-- 🧪 Programming primarily in **Python**, often using **NumPy** and **PyTorch**
+## Tech
 
----
+| | |
+|---|---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=python,ts,js,c,cpp,cs,html,css&perline=8" alt="languages" /> |
+| **Frameworks** | <img src="https://skillicons.dev/icons?i=pytorch,opencv,fastapi,flask,nodejs&perline=8" alt="frameworks" /> |
+| **Hardware** | <img src="https://skillicons.dev/icons?i=arduino&perline=8" alt="hardware" /> |
+| **Tools** | <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,linux,latex,blender,ps,ai,ae,pr&perline=8" alt="tools" />  |
 
-</td>
-</tr>
-</table>
-
-</div>
-
-## 📊 **GitHub Analytics**
+## Stats
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SabaCan0141&theme=transparent&border_radius=10&starting_year=2020" alt="readme streak stats" />
@@ -44,53 +35,6 @@
 </div>
 
 
-## 🛠️ **Tech Stack**
-
-<table align="center">
-<tr>
-<td width="50%" align="center" valign="top">
-
-### 🐍 **Main Languages**
-<img src="https://skillicons.dev/icons?i=python" width="100" height="100"/>
-<br><br>
-NumPy / SciPy / PyTorch
-<br> Matplotlib / Jupyter
-
-</td>
-<td width="50%" align="center" valign="top">
-
-### 🧰 **Development Tools**
-<img src="https://skillicons.dev/icons?i=vscode,git,github" />
-
-### 🎨 **Design**
-<img src="https://skillicons.dev/icons?i=photoshop,illustrator" />
-
-### 🌐 **Other Languages**
-<img src="https://skillicons.dev/icons?i=html,css,js,c,cpp" />
-
-
-</td>
-</tr>
-</table>
-
-
-
-## 💭 **Random Dev Quote**
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=transparent" />
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=4,12,30&height=120&section=footer&animation=twinkling" />
-</div>
-<br>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
-
-**⭐ From [SabaCan](https://github.com/SabaCan0141)**
+---
 
 *"Learning systems should reflect the elegance of biology."*
-
-</div>
