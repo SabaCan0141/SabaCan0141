@@ -4,7 +4,7 @@ Researcher and maker, based in Japan.
 
 Interested in the intersection of **neuroscience**, **information theory**, and **machine learning**, with a focus on **biologically plausible learning**. Alongside research, I build web applications, ML libraries, and hardware.
 
-Portfolio: [sabacan0141.github.io](https://sabacan0141.github.io/)
+Portfolio: [sabacan0141.github.io](https://sabacan0141.github.io/SabaCan0141/)
 
 ## Works
 
@@ -19,10 +19,11 @@ Portfolio: [sabacan0141.github.io](https://sabacan0141.github.io/)
 
 | | |
 |---|---|
-| **Languages** | <img src="https://skillicons.dev/icons?i=python,ts,js,c,cpp,cs,html,css&perline=8" alt="languages" /> |
-| **Frameworks** | <img src="https://skillicons.dev/icons?i=pytorch,opencv,fastapi,flask,nodejs&perline=8" alt="frameworks" /> |
-| **Hardware** | <img src="https://skillicons.dev/icons?i=arduino&perline=8" alt="hardware" /> |
-| **Tools** | <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,linux,latex,blender,ps,ai,ae,pr&perline=8" alt="tools" />  |
+| **Languages** |<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" title="Python" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" title="TypeScript" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" title="JavaScript" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" title="C" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" title="C++" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" title="C#" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" title="HTML" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" title="CSS" width="36" height="36" /> <br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" title="SQL" width="36" height="36" /> |
+| **Frameworks** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" title="PyTorch" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" title="NumPy" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" title="pandas" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" title="OpenCV" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" title="FastAPI" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" title="Flask" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" title="Node.js" width="36" height="36" /> |
+| **Hardware** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" title="Arduino" width="36" height="36" /> |
+| **Tools** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" title="Git" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" title="GitHub" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" title="GitHub Actions" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" title="Docker" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" title="Linux" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" title="LaTeX" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" title="Blender" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" title="Photoshop" width="36" height="36" /> <br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" title="Illustrator" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" title="After Effects" width="36" height="36" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg" title="Premiere Pro" width="36" height="36" /> |
+
 
 ## Stats
 
@@ -38,3 +39,4 @@ Portfolio: [sabacan0141.github.io](https://sabacan0141.github.io/)
 ---
 
 *"Learning systems should reflect the elegance of biology."*
+

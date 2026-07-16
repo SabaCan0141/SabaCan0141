@@ -37,6 +37,7 @@
       this.canvas.addEventListener('pointerdown', this._onDown);
       this.canvas.addEventListener('pointermove', this._onMove);
       this.canvas.addEventListener('pointerup', this._onUp);
+      this.canvas.addEventListener('pointercancel', this._onUp);
       this.canvas.addEventListener('pointerleave', this._onUp);
       if (this.reduced) this.draw(); else this._startLoop();
       return this;
@@ -50,6 +51,7 @@
       this.canvas.removeEventListener('pointerdown', this._onDown);
       this.canvas.removeEventListener('pointermove', this._onMove);
       this.canvas.removeEventListener('pointerup', this._onUp);
+      this.canvas.removeEventListener('pointercancel', this._onUp);
       this.canvas.removeEventListener('pointerleave', this._onUp);
     }
 
